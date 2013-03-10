@@ -1,0 +1,16 @@
+int pds(Elem **Tab, int *DIM) {
+	int i, j, k;
+	
+	for (j=0;j<(*DIM);j++) {
+		for (i=0;i<(*DIM);i++) {
+			for (k=(i+1);k<(*DIM);k++){
+				if ((*Tab)[i][j]==(*Tab)[k][j]){
+					
+					//codigo
+					
+					}
+				}
+			}
+		}
+return 1;
+}
